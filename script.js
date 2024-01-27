@@ -22,6 +22,7 @@ const winpatterns=[
 
 const resetgame=()=>{
     turnx=true;
+    count=0;
     enabledBoxes();
     msgcontainer.classList.add("hide");
 
